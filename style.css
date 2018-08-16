@@ -1,0 +1,92 @@
+body{
+    background: url(bg.jpeg);
+    background-size: cover;
+    font-family: sans-serif
+}
+.loginbox{
+    width: 420px;
+    height: 420px;
+    background: #fff;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 1%;
+}
+h1{
+    margin: 0;
+    padding: 25px 20px;
+    text-align: center;
+    font-size: 20px;
+    color: grey
+}
+#fb{
+    margin-left: 77px;
+    width: 120px;
+    height: 40px;
+    size: 40px;
+    font-size: 15px;
+
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #3b5998;
+    border: none;
+    border-radius: 7px;
+}
+#go{
+    margin-left: 20px;
+    width: 120px;
+    height: 40px;
+    size: 40px;
+    font-size: 15px;
+    text-align: center;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid lightgrey;
+    border-radius: 7px;
+}
+.loginbox p{
+    top: 20px;
+    margin-left: 77px;
+    
+}
+.loginbox input{
+    width:100%;
+    top: 10px;
+    margin-left: 50px;
+
+}
+.loginbox input[type="text"],input[type="password"]{
+    height: 30px;
+    width: 250px;
+    color: grey;
+    margin-left: 77px;
+    top: 10px;
+
+}
+#in{
+    border:none;
+    outline: none;
+    height: 40px;
+    width: 265px;
+    background: #000000e1;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 77px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: grey;
+    padding-left: 7px;
+}
+h2{
+    font-size: 10px;
+    text-align: center;
+    color: black;
+}
